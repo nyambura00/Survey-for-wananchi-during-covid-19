@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>household details</title>
+        <link rel="stylesheet" href="jenga.css" type="text/CSS">
+    </head>
+    <body style="background-image: url('kenya-flag.webp');">
+      <div class="my-content">
+      <h1>Household details for Kenyans</h1>
+      <p>Jambo Wakenya! I hope you are all saying safe. During this pandemic, the government at large would like to be involved in supporting the basic affairs of Kenyans during this hard time.</p>
+      <p>The head of the family is obliged to input the details of every member of the household so as to enhance accurate information.</p>
+      <p>He/she is required to send out the copies of every particular member to the area representative in due time.</p>
+    <form action="">
+      <div class="my-form">
+        <label>First name: <input type="text" placeholder="first name" required></label><br><br>
+        <label>Last name: <input type="text" placeholder="last name" required></label><br><br>
+        <label>Gender: </label><select id="gender"><option value="Male">Male</option><option value="Female">Female</option></select><br><br>
+        <label>Date of birth: </label><input type="date" id="birthday" name="birthday"><br><br>
+        <label>County of residence: </label>
+         <select id="county">
+           <!--some of the counties in Kenya-->
+           <option value="mombasa">Mombasa</option>
+           <option value="kilifi">Kilifi</option>
+           <option value="Uasin Gichu">Uasin Gichu</option>
+           <option value="Nairobi">Nairobi</option>
+           <option value="Kisumu">Kisumu</option>
+          </select><br><br>
+          <label>Location: </label> <select id="county">
+            <!--some of the locations in Kenya,based on their counties -->
+            <option value="Mariakani">Mariakani</option>
+            <option value="Kaloleni">Kaloleni</option>
+            <option value="Mazeras">Mazeras</option>
+            <option value="Ganza">Ganza</option>
+            <option value="Changamwe">Changamwe</option>
+           </select><br><br>
+          <label>Phone number: </label><input type="tel" id="my-number" pattern="[07][0-9]{8}" placeholder="0700482395" required><br><br>
+        <label>Upload ID photo: </label><input type="file" name="my-file"><br><br>
+        <input type="submit" value="submit"> <br>
+        <p id="stay-safe"><b>Stay safe!</b></p>
+      </div>
+    </form>
+  </div>
+    </body>
+</html>

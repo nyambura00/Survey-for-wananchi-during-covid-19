@@ -1,0 +1,21 @@
+.my-content{
+   justify-content: center;
+   text-align: center;
+   margin-top: 50px;
+}
+h1{
+   color: black;
+   font-weight: bolder;
+}
+#stay-safe{
+background-color: chartreuse;
+}
+body{
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-position: 50% 50%
+}
+p{
+   font-size: 150%;
+}
